@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class wswap{
+    public static void main(String[] args) {
+        int m, n;
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("Enter the first number (m):");
+        m = s.nextInt();
+
+        System.out.println("Enter the second number (n):");
+        n = s.nextInt();
+
+        System.out.println("\n--- Before Swapping (using Addition/Subtraction) ---");
+        System.out.println("First number (m): " + m);
+        System.out.println("Second number (n): " + n);
+
+        // Swapping logic using addition and subtraction
+        m = m + n; // m now stores the sum of original m and n
+        n = m - n; // n now gets the original value of m
+        m = m - n; // m now gets the original value of n
+
+        System.out.println("\n--- After Swapping ---");
+        System.out.println("First number (m): " + m);
+        System.out.println("Second number (n): " + n);
+
+        s.close();
+    }
+}

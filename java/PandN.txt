@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class PandN{
+
+public static void main(String args[ ]){
+int num;
+ Scanner s = new Scanner(System.in);
+
+        System.out.println("Enter the first number :");
+        num = s.nextInt();
+
+ if (num > 0) {
+            System.out.println(num + " is a positive number.");
+        } else if (num < 0) {
+            System.out.println(num + " is a negative number.");
+        } else {
+            System.out.println(num + " is zero.");
+        }
+
+        s.close();
+}
+}

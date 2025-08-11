@@ -15,7 +15,8 @@ System.out.println("Roll NO:"+roll+" Name:"+name+" Marks:"+marks);
 }
 public static void main(String args[])
 {
-Student11 a1=new Student11(3,"SUDARSHAN",85);
+Student11 a1=new Student11(20,"Reyhan",85);
 a1.display();
 }
 }
+

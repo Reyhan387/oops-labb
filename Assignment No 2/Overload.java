@@ -5,8 +5,8 @@ class Overload {
 
     // Default constructor
     public Overload() {
-        this.roll_no = 18;
-        this.name = "Najeem Pathan";
+        this.roll_no = 20;
+        this.name = "Reyhan Shaikh";
         this.marks = 85;
         System.out.println("Roll no: " + roll_no + ", Name: " + name + ", Marks: " + marks);
     }
@@ -39,4 +39,5 @@ class Overload {
         Overload O4 = new Overload(4, "Krishna", 89);        
     }
 }
+
 

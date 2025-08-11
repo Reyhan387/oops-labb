@@ -35,7 +35,8 @@ class Overload {
     public static void main(String[] args) {
         Overload O1 = new Overload();                        // Default
         Overload O2 = new Overload(20);                      
-        Overload O3 = new Overload(21, "Ramit");             
+        Overload O3 = new Overload(21, "reyhan");             
         Overload O4 = new Overload(4, "Krishna", 89);        
     }
 }
+

@@ -32,7 +32,8 @@ public static void main(String args[])
 {
 Student21 a1=new Student21();
 Student21 a2=new Student21(3);
-Student21 a3=new Student21(3,"SAI");
+Student21 a3=new Student21(20,"Reyhan");
 Student21 a4=new Student21(6,"PARTH",75);
 }
 }
+
